@@ -1,0 +1,119 @@
+body {
+	width: 100%;
+	height: 100px;
+	background-color: purple;
+	font-family: "Arial";
+}
+
+.player-layer {
+	margin-top: 100px;
+	width: 801px;
+	text-align: center;
+	font-size: 25px;
+	color: orange;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0px;
+}
+
+.player-left input {
+	width: 192px;
+	height: 198px;
+	position: relative;
+	top: -202px;
+	right: 30%;
+	border: 3px solid black;
+	margin-bottom: 0px;
+	opacity: 0.6;
+	cursor: pointer;
+	background-color: white;
+}
+
+.player-center input {
+	width: 192px;
+	height: 198px;
+	position: relative;
+	top: -402px;
+	right: 2%;
+	border: 3px solid black;
+	margin-bottom: 0px;
+	opacity: 0.6;
+	cursor: pointer;
+	background-color: white;
+}
+
+.player-right input {
+	width: 192px;
+	height: 198px;
+	position: relative;
+	top: -602px;
+	right: -26%;
+	border: 3px solid black;
+	margin-bottom: 0px;
+	opacity: 0.6;
+	cursor: pointer;
+	background-color: white;
+}
+
+.computer-left  {
+	width: 192px;
+	height: 192px;
+	position: relative;
+	top: -202px;
+	right: -6.5%;
+	border: 3px solid black;
+	margin-bottom: 0px;
+}
+
+.computer-center {
+	width: 192px;
+	height: 192px;
+	position: relative;
+	top: -400px;
+	right: -36%;
+	border: 3px solid black;
+	margin-bottom: 0px;
+}
+
+.computer-right {
+	width: 192px;
+	height: 192px;
+	position: relative;
+	top: -598px;
+	right: -64%;
+	border: 3px solid black;
+	margin-bottom: 0px;
+}
+
+.computer-layer {
+	width: 801px;
+	text-align: center;
+	font-size: 25px;
+	color: orange;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-top: -500px;
+}
+
+.result {
+	text-align: center;
+	color: red;
+}
+
+.score {
+	display: grid;
+	width: 60%;
+	font-size: 20px;
+	grid-template-columns: auto auto auto auto;
+	margin-top: -500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#computer-score, #player-score {
+	color: yellow;
+}
+

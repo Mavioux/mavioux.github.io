@@ -1,0 +1,42 @@
+.grid-table {
+	display: grid;
+	position: relative;
+	width: 800px;
+	height: 800px;
+	grid-template-columns: repeat(16, auto);
+	grid-template-rows: repeat(16, auto);
+	margin: auto;
+	margin-top: 75px;
+	opacity: 0.99;
+}
+
+.table-contents {
+	background-color: #d3d3d3;
+	border: 0px white solid;
+	padding: 10px;
+}
+
+.table-contents-changed {
+	background-color: white;
+	border: 2px black solid;
+	padding: 10px;
+}
+
+.reset-button {
+	position: relative;
+	height: 25px;
+	width: 150px;
+	top: -400px;
+}
+
+.set-button {
+	position: relative;
+	height: 25px;
+	width: 150px;
+	top: -400px;
+}
+
+body {
+	background-image: url("./apple.jpg")
+}
+	

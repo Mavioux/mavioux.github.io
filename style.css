@@ -1,0 +1,242 @@
+html, body {
+    margin: 0px;
+    height: 100%;
+	min-width: 1185px;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: 'Raleway';
+	font-size: 22px;
+	color: rgb(245,255,250);
+	//background-image: url("nPfNFVq.jpg");
+	//background-size: cover;
+	//background-repeat: no-repeat;
+}
+
+.up-img {
+	position: relative;
+	width: 100%;
+	object-fit: cover;
+}
+
+.toolbar {
+	width: 100%;
+	height: 60px;
+	display: block;
+	position: fixed;
+	top: 0;
+	text-align: center;
+	border-bottom: 0.05px solid rgb(255,228,225);
+	z-index:1000;
+	background-color: rgba(10,10,10,1);
+	min-width: 500px;
+}
+
+.transparent-toolbar {
+	background-color: rgba(10,10,10,0.3);
+	border-bottom: none;
+}
+
+h2 {
+	display: inline-block;
+	text-align: center;
+}
+
+.toolbar .mavioux {
+	width: 140px;
+	height: 30px;
+	margin: 10px;
+	display: inline-block;
+	padding-bottom: auto;
+	padding-top: auto;
+	position: relative;
+	z-index:1001;
+}
+
+.toolbar .portfolio {
+	width: 140px;
+	height: 30px;
+	margin: 10px;
+	display: inline-block;
+	padding-bottom: auto;
+	padding-top: auto;
+	position: relative;
+	right: 3%;
+	float: right;
+	z-index: 1001;
+}
+
+.toolbar .home {
+	width: 140px;
+	height: 30px;
+	display: inline-block;
+	margin: 10px;
+	padding-bottom: auto;
+	padding-top: auto;
+	position: relative;
+	left: 3%;
+	float: left;
+	z-index:1001;
+}
+
+.home-info {
+	margin: 0;
+	margin-bottom:-10px;
+	display: block;
+	width: 100%;
+	text-align: center;
+	position: relative;
+	top: 0px;
+	//text-shadow: 3px 1px black;
+	color: rgb(255,240,245);
+}
+
+.home-info-contents {
+	letter-spacing: 2px;
+	//font-size: 24px;
+	line-height: 50%;
+	//color: rgb(250,180,150);
+	position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.toolbar a {
+	border-radius: 7.5px;
+	padding: 5px;
+	color: rgb(245,255,250);
+	text-decoration: none;
+	//opacity:1;
+}
+
+.toolbar a:hover {
+	background-color: rgb(0,50,0);
+}
+
+.about-info {
+	margin:0;
+	position: relative;
+	width: 100%;
+	height: 800px;
+	//background-color: RGB(50, 78, 99);
+	background-color: RGB(15, 40, 54);
+	text-align: center;
+	z-index: 99;
+	min-width: 950px;
+}
+
+.about-info p {
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	font-size: 20px;
+	line-height: 200%;
+}
+
+.about-info h2 {
+	position: absolute;
+	top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.portfolio-info {
+	margin: 0;
+	display: block;
+	width: 100%;
+	text-align: center;
+	position: relative;
+	width: 100%;
+	z-index: 100;
+	min-width: 1185px;
+}
+
+.portfolio-info-contents {
+	position: absolute;
+    top: 18%;
+    left: 78%;
+    transform: translate(-50%, -50%);
+}
+
+.portfolio-info-contents  ul{
+	line-height: 200%;
+}
+
+.github-box {
+	padding: 15px;
+	padding-right: 30px;
+	padding-left: 30px;
+	display: block;
+	color: rgb(245,255,250);
+	text-decoration: none;
+	position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	border: 1px solid rgb(218,165,32);
+	transition-duration: 0.5s;
+	color: rgb(220,130,32);
+}
+
+.github-box:hover {
+	background-color: rgb(220,130,32);
+	color: rgb(245,255,250);
+}
+
+.contact-me {
+	text-align: center;
+	margin-top: -10px;
+	width: 100%;
+	height: 600px;
+	background-color: rgb(10,10,10);
+}
+
+.contact-me-sentence {
+	font-size: 32px;
+	font-weight: bold;
+	position: relative;
+	top: 20%;
+}
+
+.contact-box {
+	justify-content: center;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	position: relative;
+	width: 45%;
+	position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.github-logo img {
+	background-color: white;
+	width: 200px;
+	height: 200px;
+	border-radius: 50px;
+}
+
+.email-logo img {
+	background-color: white;
+	width: 200px;
+	height: 200px;
+	border-radius: 50px;
+}
+
+.insta-logo img {
+	background-color: white;
+	width: 200px;
+	height: 200px;
+	border-radius: 50px;
+}
+
+
+
+

@@ -36,9 +36,10 @@ body {
 	min-width: 500px;
 }
 
-.transparent-toolbar {
-	background-color: rgba(10,10,10,0.3);
-	border-bottom: none;
+.toolbar.scrolled {
+  background-color: rgba(10,10,10,0.3)  !important;
+  transition: background-color 50ms linear;
+  border-bottom: none;
 }
 
 h2 {

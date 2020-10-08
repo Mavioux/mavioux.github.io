@@ -156,6 +156,11 @@ h2 {
 	width: 100%;
 	z-index: 100;
 	min-width: 1185px;
+
+}
+
+.portfolio-info img {
+	width: 100%;
 }
 
 .portfolio-info-contents {

@@ -9,15 +9,15 @@ const CONFIG = {
    * If you are deploying to https://<USERNAME>.github.io/<REPO_NAME>/,
    * for example your repository is at https://github.com/arifszn/portfolio, then set base to '/portfolio/'.
    */
-  base: '/portfolio/',
+  base: '/',
   projects: {
     github: {
       display: true, // Display GitHub projects?
       header: 'Github Projects',
-      mode: 'automatic', // Mode can be: 'automatic' or 'manual'
+      mode: 'manual', // Mode can be: 'automatic' or 'manual'
       automatic: {
         sortBy: 'stars', // Sort projects by 'stars' or 'updated'
-        limit: 8, // How many projects to display.
+        limit: 12, // How many projects to display.
         exclude: {
           forks: false, // Forked projects will not be displayed if set to true.
           projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
@@ -25,7 +25,7 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['Mavioux/Non-Local-Means-Image-Denoising-Algorithm-CUDA', 'aMavioux/Sparse-Matrix-Triangle-Counting-Pthreads-OpenMP-Cilk', 'Mavioux/Binary-Matrix-Multiplication-MPI-Cilk', 'Mavioux/kNN-VP_Trees-MPI', 'Mavioux/aes', 'Mavioux/computer-architecture'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: ['Mavioux/Non-Local-Means-Image-Denoising-Algorithm-CUDA', 'aMavioux/Sparse-Matrix-Triangle-Counting-Pthreads-OpenMP-Cilk', 'Mavioux/Binary-Matrix-Multiplication-MPI-Cilk', 'Mavioux/kNN-VP_Trees-MPI', 'Mavioux/aes', 'Mavioux/computer-architecture-lab3'],
       },
     },
     external: {
@@ -80,7 +80,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://github.com/Mavioux/mavioux.github.io/Marios_Pakas_CV.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'C++',

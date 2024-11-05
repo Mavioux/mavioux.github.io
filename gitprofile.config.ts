@@ -25,7 +25,7 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['Mavioux/Non-Local-Means-Image-Denoising-Algorithm-CUDA', 'aMavioux/Sparse-Matrix-Triangle-Counting-Pthreads-OpenMP-Cilk', 'Mavioux/Binary-Matrix-Multiplication-MPI-Cilk', 'Mavioux/kNN-VP_Trees-MPI', 'Mavioux/aes', 'Mavioux/computer-architecture-lab3'],
+        projects: ['Mavioux/Non-Local-Means-Image-Denoising-Algorithm-CUDA', 'Mavioux/Sparse-Matrix-Triangle-Counting-Pthreads-OpenMP-Cilk', 'Mavioux/Binary-Matrix-Multiplication-MPI-Cilk', 'Mavioux/kNN-VP_Trees-MPI', 'Mavioux/aes', 'Mavioux/computer-architecture-lab3'],
       },
     },
     external: {

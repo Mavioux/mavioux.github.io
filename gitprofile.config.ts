@@ -80,7 +80,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://github.com/Mavioux/mavioux.github.io/Marios_Pakas_CV.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://github.com/Mavioux/mavioux.github.io/blob/main/Marios_Pakas_CV.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'C++',
